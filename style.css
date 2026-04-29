@@ -167,7 +167,21 @@ ol {
     margin: 0 auto;
     padding: 20px 30px;
 }
+.icon-location {
+    color: #DC2626;
+}
 
+.icon-email {
+    color: #2563EB;
+}
+
+.icon-scholar {
+    color: #7C3AED;
+}
+
+.icon-orcid {
+    color: #16A34A;
+}
 /* ============================================
    Masthead / Header
    ============================================ */
@@ -231,7 +245,7 @@ ol {
 }
 .site-description {
     font-size: 20px;
-    color: var(--accent);
+    color: #000000;
     font-weight: 600;
     margin: 0;
 }
