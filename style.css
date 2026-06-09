@@ -467,6 +467,20 @@ ol {
 
 .ccfb-badge {
     display: inline-block;
+    background: linear-gradient(180deg, #1D4ED8 0%, #2563EB 100%);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 3px 9px;
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.22);
+    vertical-align: baseline;
+}
+
+.ccfc-badge {
+    display: inline-block;
     background: linear-gradient(180deg, #166534 0%, #15803D 100%);
     color: #FFFFFF;
     font-weight: 700;
@@ -477,6 +491,30 @@ ol {
     border-radius: 999px;
     box-shadow: 0 2px 6px rgba(22, 101, 52, 0.20);
     vertical-align: baseline;
+}
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.service-item {
+    display: grid;
+    grid-template-columns: 105px 1fr;
+    column-gap: 10px;
+    align-items: baseline;
+    font-size: 14px;
+    color: var(--brown);
+    line-height: 1.7;
+}
+
+.service-badge {
+    justify-self: start;
+    white-space: nowrap;
+}
+
+.service-text {
+    min-width: 0;
 }
 .bold-text {
     color: #DC2626;
